@@ -5,7 +5,10 @@ object Dependencies {
   lazy val logback = "ch.qos.logback" % "logback-classic" % "1.2.3"
   lazy val scalaLogging = "com.typesafe.scala-logging" %% "scala-logging" % "3.9.3"
 
+  lazy val akka = "com.typesafe.akka" %% "akka-actor" % "2.6.19"
+
   lazy val lettuce = "io.lettuce" % "lettuce-core" % "6.2.0.RELEASE"
+  lazy val redisScala = "io.github.rediscala" %% "rediscala" % "1.13.0"
 
   lazy val scalaTest = "org.scalatest" %% "scalatest" % "3.2.8"
   lazy val testContainers = "org.testcontainers" % "testcontainers" % "1.15.3"

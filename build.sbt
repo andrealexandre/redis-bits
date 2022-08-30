@@ -12,6 +12,7 @@ libraryDependencies ++= Seq(
   logback,
   scalaLogging,
   lettuce,
+  redisScala,
   scalaTest % Test,
   testContainers % Test
 )

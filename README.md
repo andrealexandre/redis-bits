@@ -2,7 +2,8 @@
 
 In this repo you can find a set of example (in the form of tests) on how to integrate with Redis
 in the following way:
-* Redis client (Lettuce)
+* Redis client ([Lettuce](https://lettuce.io/))
+* Redis client ([RedisScala](https://github.com/rediscala/rediscala))
 
 ## Run tests
 
